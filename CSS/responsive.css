@@ -1,0 +1,115 @@
+@media (max-width: 768px) {
+    /* menu de navegacion */
+    .menu__header{
+        flex-direction: column;
+        height: auto;
+        position: static;
+    }
+
+    .menu__list{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .menu__list__item::after{
+        content: " |";
+    }
+
+    .info .container{
+        width: 99%;
+        flex-direction: row;
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    .tittle-container{
+        width: 100%;
+    }
+
+    .tittle-container h1{
+        font-size: 20px;
+    }
+
+    .tittle-container p{
+        font-size: 16px;
+        padding: 2px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .sobre-mi{
+        padding: 1rem 1rem;
+    }
+
+    .sobre-mi br, .tittle-container br{
+        display: none;
+    }
+
+    .skills-container, .hobbies-container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formacion-item a{
+        border-bottom: 1px solid #219ebc;
+    }
+
+    .proyecto-1, .proyecto-2{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .proyecto-contenido{
+        padding-left: 0;
+    }
+    
+    .proyecto-contenido-2{
+        padding-right: 0;
+    }
+
+    .proyecto-1-img, .proyecto-2-img{
+        width: 90%;
+        border-radius: 10px;
+    }
+    
+    .proyecto-2-img{
+        order: -1;
+    }
+
+    .img-contacto{
+        display: none;
+    }
+
+    .btn-enviar{
+        margin-left: 10px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .contacto-form input{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .mensaje{
+        width: 100%;
+        border-bottom: 1px solid #0077b6;
+        border-left: 1px solid #0077b6;
+        border-radius: 0;
+        
+    }
+
+    .btn-1:hover, .btn-2:hover, .btn-repo:hover, .btn-probar:hover, .skill-item:hover, .hobbies-item:hover{
+        transform: none;
+    }
+
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
